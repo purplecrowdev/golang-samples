@@ -36,4 +36,21 @@ func main() {
 	f, g := 10, 12 // multiple assigns
 
 	fmt.Println(f, g)
+
+	// ENUMS
+
+	type DayOfTheWeek int
+
+	const (
+		Monday DayOfTheWeek = iota
+		Tuesday
+		Wednesday
+		Thrusday
+		Friday
+		Saturday
+		Sunday
+	)
+
+	fmt.Println(Tuesday, Friday)
+
 }
